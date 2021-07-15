@@ -12,6 +12,7 @@ Below you'll find information about performing common tasks.
 ## Table of Contents
 
 * [Development Envroment Setup](#development-environment-setup)  
+* [Getting Started](#getting-started)  
 * [Configure Endpoint RedirectURI And Consumer Key](#configure-Endpoint-RedirectURI-and-consumer-key)
   * [Salesforce Endpoint](#salesforce-endpoint)
   * [Consumer Key](#consumer-key)
@@ -38,6 +39,12 @@ Install forcereact.
 ```
      [sudo] npm install -g typescript
 ```
+## Getting Started
+1. Go to project's root directory, `cd spotifile`
+2. Run `yarn`/ `npm install`to install dependencies
+3. Go to ios folder run `pod install`
+4. Go back to project root directory run 'npm start'
+5. Open `Spotifile.xcworkspace` and run it in any simulator
 
 ## Configure Endpoint RedirectURI And Consumer Key
 
