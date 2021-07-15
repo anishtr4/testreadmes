@@ -22,8 +22,7 @@ Below you'll find information about performing common tasks.
   * [npm start](#npm-start) 
   * [npm run ios](#npm-run-ios) 
 * [Customizing App Icon](#customizing-app-icon)
-* [Core App Struture](#core-app-struture)
-* [Core App Struture](#core-app-structure)
+* [Core App Struture](#core-app-struture) 
 
 
 ## Development Environment Setup
