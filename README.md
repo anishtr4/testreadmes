@@ -18,7 +18,7 @@ Below you'll find information about performing common tasks. The most recent ver
 * [Environment Variables](#environment-variables)
   * [Configuring Packager IP Address](#configuring-packager-ip-address)
 * [Adding Flow](#adding-flow)
-* [Customizing App Display Name and Icon](#customizing-app-display-name-and-icon)
+* [Customizing App Icon](#customizing-app-icon)
 * [Sharing and Deployment](#sharing-and-deployment)
   * [Publishing to Expo's React Native Community](#publishing-to-expos-react-native-community)
   * [Building an Expo "standalone" app](#building-an-expo-standalone-app)
@@ -61,7 +61,7 @@ yarn start -- --reset-cache
 Like `npm start`, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed. Alternatively you can open workspace file in xcode and run the project from there.
 
 
-## Customizing App Display Name and Icon
+## Customizing App Icon
 
 You can edit `app.json` to include [configuration keys](https://docs.expo.io/versions/latest/guides/configuration.html) under the `expo` key.
 
