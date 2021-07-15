@@ -15,7 +15,7 @@ Below you'll find information about performing common tasks.
 * [Available Scripts](#available-scripts)
   * [npm start](#npm-start) 
   * [npm run ios](#npm-run-ios)   
-* [Configure Salesforce Endpoint RedirectURI And Consumer Key](#configure-salesforce-Endpoint-RedirectURI-and-consumer-key)
+* [Configure Endpoint RedirectURI And Consumer Key](#configure-Endpoint-RedirectURI-and-consumer-key)
   * [Salesforce Endpoint](#salesforce-endpoint)
   * [Consumer Key](#consumer-key)
   * [oauthRedirectURI](#oauthRedirectURI)
@@ -66,7 +66,7 @@ Like `npm start`, but also attempts to open your app in the iOS Simulator if you
 You can edit AppIcon in "images.xcassets". Open Spotifile.xcworkspace in project navigator open Spotifle "Supporting Files" and open "images.xcassets" there you can find AppIcon and update the required icons according to the given size/aspect ration 
 
 
-## Configure Salesforce Endpoint RedirectURI And Consumer Key
+## Configure Endpoint RedirectURI And Consumer Key
 
 You can configure some of Create React Native App's behavior using environment variables.
 
