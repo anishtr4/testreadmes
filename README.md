@@ -63,11 +63,8 @@ Like `npm start`, but also attempts to open your app in the iOS Simulator if you
 
 ## Customizing App Icon
 
-You can edit `app.json` to include [configuration keys](https://docs.expo.io/versions/latest/guides/configuration.html) under the `expo` key.
+You can edit AppIcon in "images.xcassets". Open Spotifile.xcworkspace in project navigator open Spotifle "Supporting Files" and open "images.xcassets" there you can find AppIcon and update the required icons according to the given size/aspect ration 
 
-To change your app's display name, set the `expo.name` key in `app.json` to an appropriate string.
-
-To set an app icon, set the `expo.icon` key in `app.json` to be either a local path or a URL. It's recommended that you use a 512x512 png file with transparency.
 
 ## Writing and Running Tests
 
