@@ -89,7 +89,7 @@ yarn start -- --reset-cache
 
 #### `npm run ios`
 
-Like `npm start`, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed. Alternatively you can open workspace file in xcode and run the project from there.
+Like `npm start`, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed. Alternatively you can open workspace file in xcode and run the project from there make sure to run `npm start` before running it from xcode.
 
 
 ## Customizing App Icon
