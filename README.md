@@ -61,11 +61,6 @@ yarn start -- --reset-cache
 Like `npm start`, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed. Alternatively you can open workspace file in xcode and run the project from there.
 
 
-## Customizing App Icon
-
-You can edit AppIcon in "images.xcassets". Open Spotifile.xcworkspace in project navigator open Spotifle "Supporting Files" and open "images.xcassets" there you can find AppIcon and update the required icons according to the given size/aspect ration 
-
-
 ## Configure Endpoint RedirectURI And Consumer Key
 
 You can configure some of Create React Native App's behavior using environment variables.
@@ -82,11 +77,16 @@ In project navigator open Spotifle "Supporting Files" and open bootconfig.plist.
 
 In project navigator open Spotifle "Supporting Files" and open bootconfig.plist. Update "oauthRedirectURI" field/key value to appropriate one.
 
- 
+
 ## Pod Installation
 Make sure to do apod install in the ios directory.
   
     ```
     pod install
     ```
+
+## Customizing App Icon
+
+You can edit AppIcon in "images.xcassets". Open Spotifile.xcworkspace in project navigator open Spotifle "Supporting Files" and open "images.xcassets" there you can find AppIcon and update the required icons according to the given size/aspect ration 
+
 
