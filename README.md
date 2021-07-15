@@ -26,6 +26,10 @@ Install Node.js and npm.
   1. To check if these tools are already installed, at the command prompt type npm -v and press Return.
   2. If you get a “command not found” error message, download and install the Node.js package for your operating system at https://nodejs.org/en/.
 
+Install yarn.
+```
+     [sudo] npm install -g yarn
+```
 Updating the `react-native-scripts` dependency of your app should be as simple as bumping the version number in `package.json` and reinstalling your project's dependencies.
 
 Upgrading to a new version of React Native requires updating the `react-native`, `react`, and `expo` package versions, and setting the correct `sdkVersion` in `app.json`. See the [versioning guide](https://github.com/react-community/create-react-native-app/blob/master/VERSIONS.md) for up-to-date information about package version compatibility.
