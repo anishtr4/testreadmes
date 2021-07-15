@@ -79,7 +79,7 @@ In project navigator open Spotifle "Supporting Files" and open bootconfig.plist.
 
 
 ## Pod Installation
-Make sure to do apod install in the ios directory.
+Make sure to do pod install in the ios directory(spotifile/ios).
   
     ```
     pod install
