@@ -92,6 +92,13 @@ You can edit AppIcon in "images.xcassets". Open Spotifile.xcworkspace in project
 
 ## Core App Struture
 
+The application is utilizing react-native-paper as a core fremwork (gradully trying to remove react-native-paper dependecy)
+
+As a part of state management we are using Redux, Redux-saga, Redux-persist
+
+    ### A typical top-level directory layout 
+
+
     App
     ├── action                   # Redux actions
     ├── api                      # All the http request/api methods
@@ -111,3 +118,5 @@ You can edit AppIcon in "images.xcassets". Open Spotifile.xcworkspace in project
     ├── store                    # Redux store configuration (state container which holds the application's state)
     ├── theme                    # Application core styles, colors, font size,Typo graphy 
     └── utils                    # collection of utility function used through out the app
+    
+
