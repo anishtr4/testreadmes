@@ -43,7 +43,7 @@ Install forcereact.
 1. Go to project's root directory, `cd spotifile`
 2. Run `yarn`/ `npm install`to install dependencies
 3. Go to ios folder run `pod install`
-4. Go back to project root directory run 'npm start'
+4. Go back to project root directory run `npm start`
 5. Open `Spotifile.xcworkspace` and run it in any simulator
 
 ## Configure Endpoint RedirectURI And Consumer Key
