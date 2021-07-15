@@ -21,6 +21,7 @@ Below you'll find information about performing common tasks.
   * [oauthRedirectURI](#oauthRedirectURI)
 * [Pod Installation](#pod-installation)
 * [Customizing App Icon](#customizing-app-icon)
+* [Core App Struture](#core-app-structure)
 
 
 ## Development Environment Setup
@@ -89,3 +90,24 @@ Make sure to do pod install in the ios directory(spotifile/ios).
 You can edit AppIcon in "images.xcassets". Open Spotifile.xcworkspace in project navigator open Spotifle "Supporting Files" and open "images.xcassets" there you can find AppIcon and update the required icons according to the given size/aspect ration 
 
 
+## Core App Struture
+App
+ action -  Redux actions
+ api - All the http request/api methods 
+ assets - Art files/icons/images required for the application
+ components - Application components (Following Atomic  Design) Note: Templates is not being used
+     Atom - Atoms are the smallest possible components
+     Molecules - Composition of one or more components of atoms
+     Organisms - Organisms are the combination of molecules that work together or even with atoms that compose more elaborate interfaces
+     Templates - templates create relationships between the organisms and others components through positions, placements and patterns 
+ config - Contains application configurations (app version, api queries) Note: Some of the api queries is not being used any more  as part of endpoint change.
+ lib -
+ navigation -
+ permission - 
+ reducers - 
+ sagas - 
+ screens - 
+ store - 
+ styles - 
+ theme - 
+ utils - 
