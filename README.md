@@ -22,6 +22,7 @@ Below you'll find information about performing common tasks.
   * [npm start](#npm-start) 
   * [npm run ios](#npm-run-ios) 
 * [Customizing App Icon](#customizing-app-icon)
+* [Test](#test)
 * [Core App Struture](#core-app-structure)
 
 
@@ -96,6 +97,7 @@ Like `npm start`, but also attempts to open your app in the iOS Simulator if you
 
 You can edit AppIcon in "images.xcassets". Open Spotifile.xcworkspace in project navigator open Spotifle "Supporting Files" and open "images.xcassets" there you can find AppIcon and update the required icons according to the given size/aspect ration 
 
+## Test
 
 ## Core App Struture
 
