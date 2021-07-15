@@ -91,11 +91,39 @@ You can edit AppIcon in "images.xcassets". Open Spotifile.xcworkspace in project
 
 
 ## Core App Struture
-* App
 
- ** action -  Redux actions
- 
- ** api - All the http request/api methods 
+### A typical top-level directory layout
+
+    App
+    ├── action                   # Redux actions
+    ├── api                      # All the http request/api methods
+    ├── assets                   # Art files/icons/images required for the application
+    ├── components               # Application components (Following Atomic  Design) Note: Templates is not being used
+    │   ├── Atom                    # Atoms are the smallest possible components
+    │   ├── Molecules               # Composition of one or more components of atoms
+    │   ├── Organisms               # Organisms are the combination of molecules that work together or even with atoms that compose more elaborate interfaces
+    │   └── Templates               # Ttemplates create relationships between the organisms and others components through positions, placements and patterns 
+    ├── config                   # Tools and utilities
+    ├── lib
+    ├── navigation
+    ├── permission                   # Tools and utilities
+    ├── reducers
+    ├── sagas
+    ├── screens                   # Tools and utilities
+    ├── store
+    ├── styles
+    ├── theme                   # Tools and utilities
+    ├── utils
+    ├── styles
+    └── README.md
+      
+    
+    
+    
+App
+
+action -  Redux actions
+ api - All the http request/api methods 
  
  assets - Art files/icons/images required for the application
  components - Application components (Following Atomic  Design) Note: Templates is not being used
