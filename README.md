@@ -30,9 +30,11 @@ Install yarn.
 ```
      [sudo] npm install -g yarn
 ```
-Updating the `react-native-scripts` dependency of your app should be as simple as bumping the version number in `package.json` and reinstalling your project's dependencies.
+Install forcereact.
 
-Upgrading to a new version of React Native requires updating the `react-native`, `react`, and `expo` package versions, and setting the correct `sdkVersion` in `app.json`. See the [versioning guide](https://github.com/react-community/create-react-native-app/blob/master/VERSIONS.md) for up-to-date information about package version compatibility.
+```
+     [sudo] npm install -g typescript
+```
 
 ## Available Scripts
 
