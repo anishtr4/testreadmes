@@ -92,7 +92,7 @@ You can edit AppIcon in "images.xcassets". Open Spotifile.xcworkspace in project
 
 ## Core App Struture
 
-The application is utilizing react-native-paper [React Native Paper](https://callstack.github.io/react-native-paper/) as a core fremwork (gradully trying to remove react-native-paper dependecy)
+The application is utilizing react-native-paper [React Native Paper](https://callstack.github.io/react-native-paper/) as a core framework (gradually trying to remove React Native Paper dependecy)
 
 As a part of state management we are using [Redux](https://redux.js.org/), [Redux-saga](https://redux-saga.js.org/), [Redux-persist](https://www.npmjs.com/package/redux-persist)
 
