@@ -11,7 +11,7 @@ Below you'll find information about performing common tasks.
 
 ## Table of Contents
 
-* [Updating to New Releases](#updating-to-new-releases)
+* [Development Envroment Setup](#development-environment-setup)
 * [Available Scripts](#available-scripts)
   * [npm start](#npm-start) 
   * [npm run ios](#npm-run-ios)   
@@ -21,9 +21,10 @@ Below you'll find information about performing common tasks.
 * [Customizing App Icon](#customizing-app-icon)
 
 
-## Updating to New Releases
-
-You should only need to update the global installation of `create-react-native-app` very rarely, ideally never.
+## Development Environment Setup
+Install Node.js and npm.
+  1. To check if these tools are already installed, at the command prompt type npm -v and press Return.
+  2. If you get a “command not found” error message, download and install the Node.js package for your operating system at https://nodejs.org/en/.
 
 Updating the `react-native-scripts` dependency of your app should be as simple as bumping the version number in `package.json` and reinstalling your project's dependencies.
 
