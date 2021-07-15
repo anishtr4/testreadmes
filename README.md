@@ -91,9 +91,9 @@ You can edit AppIcon in "images.xcassets". Open Spotifile.xcworkspace in project
 
 
 ## Core App Struture
-App
- action -  Redux actions
- api - All the http request/api methods 
+* App
+ ** action -  Redux actions
+ ** api - All the http request/api methods 
  assets - Art files/icons/images required for the application
  components - Application components (Following Atomic  Design) Note: Templates is not being used
      Atom - Atoms are the smallest possible components
