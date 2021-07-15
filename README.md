@@ -92,53 +92,22 @@ You can edit AppIcon in "images.xcassets". Open Spotifile.xcworkspace in project
 
 ## Core App Struture
 
-### A typical top-level directory layout
-
     App
     ├── action                   # Redux actions
     ├── api                      # All the http request/api methods
     ├── assets                   # Art files/icons/images required for the application
-    ├── components               # Application components (Following Atomic  Design) Note: Templates is not being used
+    ├── components               # Application components (Following Atomic  Design) Note: Templates is not being used as of now
     │   ├── Atom                    # Atoms are the smallest possible components
     │   ├── Molecules               # Composition of one or more components of atoms
     │   ├── Organisms               # Organisms are the combination of molecules that work together or even with atoms that compose more elaborate interfaces
     │   └── Templates               # Ttemplates create relationships between the organisms and others components through positions, placements and patterns 
-    ├── config                   # Tools and utilities
-    ├── lib
-    ├── navigation
-    ├── permission                   # Tools and utilities
-    ├── reducers
-    ├── sagas
-    ├── screens                   # Tools and utilities
-    ├── store
-    ├── styles
-    ├── theme                   # Tools and utilities
-    ├── utils
-    ├── styles
-    └── README.md
-      
-    
-    
-    
-App
-
-action -  Redux actions
- api - All the http request/api methods 
- 
- assets - Art files/icons/images required for the application
- components - Application components (Following Atomic  Design) Note: Templates is not being used
-     Atom - Atoms are the smallest possible components
-     Molecules - Composition of one or more components of atoms
-     Organisms - Organisms are the combination of molecules that work together or even with atoms that compose more elaborate interfaces
-     Templates - templates create relationships between the organisms and others components through positions, placements and patterns 
- config - Contains application configurations (app version, api queries) Note: Some of the api queries is not being used any more  as part of endpoint change.
- lib -
- navigation -
- permission - 
- reducers - 
- sagas - 
- screens - 
- store - 
- styles - 
- theme - 
- utils - 
+    ├── config                   # Contains configurations (app version, api queries) Note: Some of the api queries is not being used any more.
+    ├── lib                      # Contains helper functions(create reducer etc).
+    ├── navigation               # Contains application navigation flow an navigation options
+    ├── permission               # permission request create initlaly for android (as android is not part of the scope now not maintaining it furthur)
+    ├── reducers                 # Redux reducers created using helper function available in the lib folder
+    ├── sagas                    # Redux-saga files ( is a redux middleware library)
+    ├── screens                  # Application screens(home,about us,search ..etc)
+    ├── store                    # Redux store configuration (state container which holds the application's state)
+    ├── theme                    # Application core styles, colors, font size,Typo graphy 
+    └── utils                    # collection of utility function used through out the app
