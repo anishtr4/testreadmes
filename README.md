@@ -1,7 +1,7 @@
 Spotifile (Salesforce + React Native)
 ===
 
-This is an example [Sanity](https://www.sanity.io) backed [React Native](https://facebook.github.io/react-native/) app for the movies database dataset.
+ [SalesforceMobileSDK](https://github.com/forcedotcom/SalesforceMobileSDK-ReactNative) & [React Native v0.62](https://facebook.github.io/react-native/).
 
 ## Setup
 
