@@ -52,15 +52,15 @@ You can configure some of App's behavior using environment variables.
 
 ### Salesforce Endpoint
 
-In project navigator open Spotifle "Supporting Files" and open info.plist. Update "SFDCOAuthLoginHost" field/key value to specific endpoint/url. Make sure to remove HTTP/HTTPS from the URL.
+In project navigator open Spotifle "Supporting Files" and open info.plist. Update `SFDCOAuthLoginHost` field/key value to specific endpoint/url. Make sure to remove HTTP/HTTPS from the URL.
 
 ### Consumer Key
 
-In project navigator open Spotifle "Supporting Files" and open bootconfig.plist. Update "remoteAccessConsumerKey" field/key value to appropriate Consumer Key.
+In project navigator open Spotifle "Supporting Files" and open bootconfig.plist. Update `remoteAccessConsumerKey` field/key value to appropriate Consumer Key.
 
 ### oauthRedirectURI
 
-In project navigator open Spotifle "Supporting Files" and open bootconfig.plist. Update "oauthRedirectURI" field/key value to appropriate one.
+In project navigator open Spotifle "Supporting Files" and open bootconfig.plist. Update `oauthRedirectURI` field/key value to appropriate one.
 
 
 ## Pod Installation
