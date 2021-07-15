@@ -70,9 +70,18 @@ You can edit AppIcon in "images.xcassets". Open Spotifile.xcworkspace in project
 
 You can configure some of Create React Native App's behavior using environment variables.
 
-### Configuring Packager IP Address
+### Salesforce Endpoint
 
-When starting your project, you'll see something like this for your project URL:
+In project navigator open Spotifle "Supporting Files" and open info.plist. Update "SFDCOAuthLoginHost" field/key value to specific endpoint/url. Make sure to remove HTTP/HTTPS from the URL.
+
+### Consumer Key
+
+In project navigator open Spotifle "Supporting Files" and open bootconfig.plist. Update "remoteAccessConsumerKey" field/key value to appropriate Consumer Key.
+
+### oauthRedirectURI
+
+In project navigator open Spotifle "Supporting Files" and open bootconfig.plist. Update "oauthRedirectURI" field/key value to appropriate one.
+
 
 ```
 exp://192.168.0.2:19000
