@@ -48,7 +48,7 @@ Install forcereact.
 
 ## Configure Endpoint RedirectURI And Consumer Key
 
-You can configure some of Create React Native App's behavior using environment variables.
+You can configure some of App's behavior using environment variables.
 
 ### Salesforce Endpoint
 
