@@ -13,11 +13,10 @@ Below you'll find information about performing common tasks.
 
 * [Development Envroment Setup](#development-environment-setup)  
 * [Getting Started](#getting-started)  
-* [Configure Endpoint RedirectURI And Consumer Key](#configure-Endpoint-RedirectURI-and-consumer-key)
+* [Salesforce configuration](#salesforce-configuration)
   * [Salesforce Endpoint](#salesforce-endpoint)
   * [Consumer Key](#consumer-key)
-  * [oauthRedirectURI](#oauthRedirectURI)
-* [Pod Installation](#pod-installation)
+  * [oauthRedirectURI](#oauthRedirectURI) 
 * [Available Scripts](#available-scripts)
   * [npm start](#npm-start) 
   * [npm run ios](#npm-run-ios) 
@@ -46,7 +45,7 @@ Install forcereact.
 4. Go back to project root directory run `npm start`
 5. Open `Spotifile.xcworkspace` and run it in any simulator
 
-## Configure Endpoint RedirectURI And Consumer Key
+## Salesforce configuration
 
 You can configure some of App's behavior using environment variables.
 
@@ -62,12 +61,6 @@ In project navigator open Spotifle "Supporting Files" and open bootconfig.plist.
 
 In project navigator open Spotifle "Supporting Files" and open bootconfig.plist. Update `oauthRedirectURI` field/key value to appropriate one.
 
-
-## Pod Installation
-Make sure to do pod install in the ios directory(spotifile/ios).
-    ```
-    pod install
-    ```
 
 ## Available Scripts
 
@@ -94,7 +87,7 @@ Like `npm start`, but also attempts to open your app in the iOS Simulator if you
 
 ## Customizing App Icon
 
-You can edit AppIcon in "images.xcassets". Open Spotifile.xcworkspace in project navigator open Spotifle "Supporting Files" and open "images.xcassets" there you can find AppIcon and update the required icons according to the given size/aspect ration 
+You can edit AppIcon in `images.xcassets`. Open `Spotifile.xcworkspace` in project navigator open Spotifle "Supporting Files" and open `images.xcassets` there you can find `AppIcon` and update the required icons according to the given size/aspect ration 
 
 ## Core App Struture 
 
@@ -102,26 +95,31 @@ The application is utilizing react-native-paper [React Native Paper](https://cal
 
 As a part of state management we are using [Redux](https://redux.js.org/), [Redux-saga](https://redux-saga.js.org/), [Redux-persist](https://www.npmjs.com/package/redux-persist)
 
-    ### A typical top-level directory layout 
+    ## Top-level directory layout 
 
 
     App
     ├── action                   # Redux actions
     ├── api                      # All the http request/api methods
     ├── assets                   # Art files/icons/images required for the application
-    ├── components               # Application components (Following Atomic  Design) Note: Templates is not being used as of now
+    ├── components               # Application components (Following Atomic Design pattern)
+    │   │                          Note: Templates is not being used as of now
     │   ├── Atom                    # Atoms are the smallest possible components
     │   ├── Molecules               # Composition of one or more components of atoms
-    │   ├── Organisms               # Organisms are the combination of molecules that work together or even with atoms that compose more elaborate interfaces
-    │   └── Templates               # Ttemplates create relationships between the organisms and others components through positions, placements and patterns 
-    ├── config                   # Contains configurations (app version, api queries) Note: Some of the api queries is not being used any more.
-    ├── lib                      # Contains helper functions(create reducer etc).
+    │   ├── Organisms               # Organisms are the combination of molecules that work together   
+    │   │                             or even with atoms that compose more elaborate interfaces
+    │   └── Templates               # Ttemplates create relationships between the organisms and others  
+    │                                 components through positions, placements and patterns 
+    ├── config                   # Contains configurations (app version, api queries) Note: Some of the 
+    │                              api queries is not used any more
+    ├── lib                      # Contains helper functions(create reducer,isIphonex etc).
     ├── navigation               # Contains application navigation flow an navigation options
-    ├── permission               # permission request create initlaly for android (as android is not part of the scope now not maintaining it furthur)
+    ├── permission               # permission request create initlaly for android 
+    │                              (as android is not part of the scope now not maintaining it furthur)
     ├── reducers                 # Redux reducers created using helper function available in the lib folder
     ├── sagas                    # Redux-saga files ( is a redux middleware library)
     ├── screens                  # Application screens(home,about us,search ..etc)
-    ├── store                    # Redux store configuration (state container which holds the application's state)
+    ├── store                    # Redux store configuration(holds the application's state)
     ├── theme                    # Application core styles, colors, font size,Typo graphy 
     └── utils                    # collection of utility function used through out the app
     
